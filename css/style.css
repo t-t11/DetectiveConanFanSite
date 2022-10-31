@@ -1,0 +1,34 @@
+body {
+  background-color: #eeeeee;
+}
+
+hr {
+  border-style: none;
+  border-top: 10px dotted white;
+  margin: 30px auto;
+  width: 10%;
+}
+
+h1,
+h2,
+h3 {
+  color: #54b435;
+}
+
+.pumpkin {
+  background-color: #e0144c;
+  border-radius: 10px;
+  box-shadow: 5px 5px;
+  position: relative;
+}
+
+.pumpkin:hover {
+  background-color: blueviolet;
+}
+
+.pumpkin:active {
+  background-color: yellow;
+  box-shadow: none;
+  left: 5px;
+  top: 5px;
+}
